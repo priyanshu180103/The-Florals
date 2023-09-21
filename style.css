@@ -113,9 +113,9 @@ header .fa-bars{
 
 header .search-form{
     position: absolute;
-    top: 115%; right: 7%;
+    top: 115%; right: 10%;
     background: #fff;
-    width: 50rem;
+    width: 40rem;
     height: 5rem;
     display: flex;
     align-items: center;
