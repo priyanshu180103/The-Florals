@@ -50,7 +50,7 @@ section{
 .btn:hover{
     background: green;
 }
-
+/* Header Section */
 header{
     position: fixed;
     top:0; left:0; right:0;
@@ -111,12 +111,14 @@ header .fa-bars{
     display: none;
 }
 
+/*Search Bar Section*/
+
 header .search-form{
     position: absolute;
     top: 115%; right: 10%;
     background: #fff;
-    width: 40rem;
-    height: 5rem;
+    width: 35rem;
+    height: 4rem;
     display: flex;
     align-items: center;
     transform: scaleY(0);
@@ -140,16 +142,128 @@ header .search-form input{
 
 header .search-form label{
     cursor: pointer;
-    font-size: 2.2rem;
+    font-size: 2.3rem;
+    margin-left: 1.5rem;
     margin-right: 1.5rem;
     color: var(--black);
 }
 
 header .search-form label:hover{
-color:green;
+color:#fff;
+}
+
+header .search-form label::after{
+height: 100%;
+width: 0%;
+content: '';
+background:rgb(19, 123, 19);
+position: absolute;
+top: 0;
+right: 0;
+z-index: -1;
+transition: 0.3s;
+}
+header .search-form label:hover::after{
+width: 100%;
 }
 
 
+
+
+
+
+/*Cart Section*/
+header .cart-items-container{
+    position: absolute;
+    top: 100%; right: -100%;
+    height: calc(100vh - 9.5rem);
+    width: 35rem;
+    background:whitesmoke;
+    padding: 0 1.5rem;
+}
+
+header .cart-items-container.active{
+    right: 0%;
+}
+header .cart-items-container h1{
+    font-size: 2.5rem;
+    color: var(--black);
+    padding-bottom: 1rem;
+    padding-top: .5rem;
+}
+header .cart-items-container h2{
+    font-size: 2.0rem;
+    color: orangered;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+
+}
+
+.bttn{
+    margin-left: 21%;
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.bttn:hover{
+    background: green;
+}
+header .cart-items-container .cart-item{
+    position: relative;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+header .cart-items-container .cart-item .fa-times{
+    position: absolute;
+    top: 1rem; right: 1rem;
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+}
+
+header .cart-items-container .cart-item .fa-times:hover{
+    color: var(--pink);
+}
+
+
+header .cart-items-container .cart-item img{
+    height: 7rem;
+}
+
+header .cart-items-container .cart-item .content h3{
+    font-size: 2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+header .cart-items-container .cart-item .content .price{
+    font-size: 1.5rem;
+    color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Home Section*/
 .home{
     display: flex;
     align-items: center;
@@ -185,6 +299,8 @@ color:green;
     line-height: 1.5;  
 }
 
+
+/*About Section*/
 .about .row{
     display: flex;
     align-items: center;
@@ -239,6 +355,8 @@ color:green;
    line-height: 1.5;
 }
 
+/*Icons Section*/
+
 .icons-container{
     background: #eee;
     display: flex;
@@ -279,8 +397,17 @@ color:green;
 
 
 
-/*login page*/
 
+
+
+
+
+
+
+
+
+
+/*Login Page*/
 .body{
     display: flex;
     justify-content: center;
@@ -374,7 +501,6 @@ text-decoration: none;
 .register-link p a:hover {
 text-decoration: underline;
 }
-
 /*login page ends*/
 
 
@@ -447,6 +573,12 @@ text-decoration: underline;
         display: block;
     }
 
+   header .search-form{
+    width: 60%;
+    right: 2rem;
+   }
+
+
     .home .content h3{
         font-size: 5rem;
 
@@ -479,35 +611,11 @@ text-decoration: underline;
     .heading{
         font-size: 3rem;
     }
+    
+    header .search-form{
+        width: 35%;
+        right: 2rem;
+       }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
