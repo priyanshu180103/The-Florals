@@ -283,6 +283,7 @@ header .cart-items-container .cart-item .content .price{
 
 .home .content span{
     font-size: 3.0rem;
+    font-weight: bold;
     color: brown;
     padding: 1rem 0;
     line-height: 1.5;
@@ -290,6 +291,7 @@ header .cart-items-container .cart-item .content .price{
 
 .home .content p{
     font-size: 1.5rem;
+    font-weight: bold;
     color:#333;
     padding: 1rem 0;
     line-height: 1.5;  
