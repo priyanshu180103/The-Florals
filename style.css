@@ -96,9 +96,10 @@ header .icons a:hover{
     color: var(--pink);
 }
 
-header #toggler{
-    display: none;
+#menu-btn{
+ display: none;
 }
+
 
 header .fa-bars{
     
@@ -789,28 +790,30 @@ text-decoration: underline;
 }
 
 @media(max-width:772px){
-    header .fa-bars{
+    #menu-btn{
         
-        display: block;
+        display: inline-block;
     }
     header .navbar{
         position: absolute;
-        top: 100%; left: 0; right: 0;
+        top: 100%; left: 0; right: 0; 
         background: #eee;
-        border-top: .1rem solid rgba(0,0,0,.1);
+       border-left: .1rem solid rgba(0,0,0,.1);
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     } 
-
-   header #toggler:checked ~ .navbar{
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-   }
+     
+    header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
 
     header .navbar a{
-        margin:1.5rem;
+       color: var(--black);
+       display: block;
+       margin: 1.5rem;
        padding: 1.5rem;
-        background: #fff;
-        border: 1rem solid rgba(0,0,0,.1);
-        display: block;
+       background: #fff;
+       border: 1rem solid rgba(0,0,0,.1); ;
+       font-size: 2rem;
     }
 
    header .search-form{
