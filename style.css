@@ -783,14 +783,14 @@ text-decoration: underline;
 
     .home{
       
-        background:url(bg3.jpg);
+        background:url(b1.jpg)no-repeat;
         
     }
     
 .home .content span{
     font-size: 3.0rem;
     font-weight: bold;
-    color:rgb(36, 22, 116);
+    color:brown;
     padding: 1rem 0;
     line-height: 1.5;
 }
@@ -798,7 +798,7 @@ text-decoration: underline;
 .home .content p{
     font-size: 1.5rem;
     font-weight: bold;
-    color: rgb(46, 67, 6);
+    color:grey;
     padding: 1rem 0;
     line-height: 1.5;  
 }
