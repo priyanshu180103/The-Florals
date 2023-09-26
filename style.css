@@ -87,7 +87,7 @@ header .navbar a:hover{
 
 header .icons a{
     cursor:pointer;
-    font-size: 2.5rem;
+    font-size: 3.0rem;
     color: #333;
     margin-left: 1.5rem;
 }
@@ -106,9 +106,8 @@ header .fa-bars{
     font-size: 3rem;
     color: #333;
     border-radius: .5rem;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 0.5rem;
     cursor:pointer;
-   border: solid rgba(0,0,0,.3);
     display: none;
 }
 
