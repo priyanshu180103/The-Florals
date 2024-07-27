@@ -10,7 +10,7 @@ The Florals is an elegant and user-friendly front-end e-commerce website designe
 
 **User-friendly Interface:** Offers intuitive navigation and an aesthetically pleasing design, making it simple for users to find and purchase their desired flowers.                                                                                       
                                                                                                                                                                                 
-# Here is the link of my Website:https://priyanshu180103.github.io/The-Florals/.                                                                                                                     
+**Here is the link of my Website:https://priyanshu180103.github.io/The-Florals/.**                                                                                                                     
 
 Hope you will like it.
 
