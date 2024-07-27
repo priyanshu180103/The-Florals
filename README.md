@@ -4,6 +4,6 @@ This is my first Web E-Commerce Project. Here, I have created the front end part
 I have created this project from the scratch with my own creativity. Once you go through my code files of html and css you can have clear idea about them and 
 I have separate the sections for better understanding.                                                                                                                                                                  
                                                                                                                                                                                 
-Here is the link of my Website:.                                                                                                                     
+Here is the link of my Website:https://priyanshu180103.github.io/The-Florals/.                                                                                                                     
 
 Hope you will like it.
